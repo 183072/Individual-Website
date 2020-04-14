@@ -20,6 +20,50 @@ header h3 {
 	min-height: calc(100% - 436px);
 }
 
+.main h1 {
+	font-family: 'Amatic SC', cursive;
+}
+
+.main h3 {
+	font-family: 'Reenie Beanie', cursive;
+}
+
+.video {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+	padding: 1px;
+    position:absolute;
+}
+
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.opening-hours ul li {
+    border-bottom: 1px solid green;
+    color: black;
+    line-height: 35px;
+    list-style: none;
+}
 /*Footer*/
 footer {
 	background-color: darkgreen;
